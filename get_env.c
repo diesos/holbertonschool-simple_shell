@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
-* getEnv - get the path of an executable
+* _get_env - get the path of an executable
 * @input: input string
 * Return: path of the executable
 */

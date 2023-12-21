@@ -19,4 +19,4 @@ char *_get_env(char *input);
 char *purge_whiteSpace(char *input);
 
 
-#endif // MAIN__H
+#endif

@@ -1,24 +1,23 @@
 #include "main.h"
 
 /**
-* main - Entry point
-* @argc: argument count
-* @argv: argument vector
-* Return: Always 0 (Success)
-*/
-int main(int ac, char *av[])
+ * main - Entry point
+ * @ac: argument count
+ * @av: argument vector
+ * Return: Always 0 (Success)
+ */
+int	main(int ac, char *av[])
 {
-    
 	int exe;
 	size_t len = 0;
 	ssize_t read_input;
-    char *input = NULL, *isWhiteSpace = NULL;
+	char *input = NULL, *isWhiteSpace = NULL;
 
-    if (ac != 1)
-        {
-            printf("Usage: %s\n", av[0]);
-            return (EXIT_FAILURE);
-        }
+	if (ac != 1)
+	{
+		printf("Usage: %s\n", av[0]);
+		return (EXIT_FAILURE);
+	}
 
 	while (1)
 	{
@@ -28,13 +27,11 @@ int main(int ac, char *av[])
 			fflush(stdout);
 		}
 
-
 		read_input = getline(&input, &len, stdin);
 		if (read_input == -1)
 			break;
 
 		isWhiteSpace = purge_whiteSpace(input);
-
 
 		if (isWhiteSpace == NULL)
 			continue;

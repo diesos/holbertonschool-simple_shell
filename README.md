@@ -5,7 +5,7 @@
 
 ## 🏆 Challenge Project
 
-The project was to write a simple UNIX command interpreter as part of the HolbertonSchool training course. 
+The project was to write a simple UNIX command interpreter as part of the HolbertonSchool training course.
 
 Our simple shell should behave like the original, with a few less features that can be added later to complete it.
 
@@ -91,6 +91,5 @@ The simple shell returns the exit status of the last command executed, unless a 
 
 We have also created a corresponding man page for the Simple shell providing detailed information about its usage and available format specifiers. To access the man page, run the following command in your terminal
 
-## To execut  the man page 
+## To execut  the man page
 - the command is : man  ./man_simple_shell
-        
