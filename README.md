@@ -23,7 +23,7 @@ This project brings together a large part of the knowledge acquired in order to 
 - All your header files should be include guarded
 <br></br>
 ## 📊 Flowchart
-![](https://i.imgur.com/QdfsbDk.png)
+![](https://i.imgur.com/FVphY8W.png)
 ## 🤨 How to use the Simple Shell
 
 This simple shell project uses several standard libraries contained in C. So you will need:
